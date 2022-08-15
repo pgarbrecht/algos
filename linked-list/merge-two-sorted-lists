@@ -4,6 +4,7 @@ Merge the two lists in a one sorted list. The list should be made by splicing to
 Return the head of the merged linked list.
 */
 
+//pass in two linked lists
 var mergeTwoLists = function(list1, list2) {
     // Initialise a new LinkedList with a dummy ListNode
     let newList = new ListNode(0);
