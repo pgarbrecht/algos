@@ -15,6 +15,7 @@ var twoSum = function(nums, target) {
     //nested for loop to check sum between items in each array
     for(i=0; i<nums.length; i++) {
         for(j=i+1; j<nums.length; j++) {
+            //function to sum the 2 items from each array
             let sumCheck = nums[i] + nums[j];
             if(i === j) {
                 continue;
