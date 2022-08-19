@@ -12,20 +12,20 @@ var mergeTwoLists = function(list1, list2) {
     // Maintain a reference to the head of the new LinkedList
     let headOfNewList = newList;
 
-    // Whilst both of the passed in lists contain more elements
+    // While both of the passed in lists are not at the end node
     while (list1 != null && list2 != null) {
         // If list1's value is smaller
         if (list1.val < list2.val) {
             // Add list1's value to the new list
             newList.next = list1;
 
-            // Move list1 to its next element
+            // Move list1 to its next node
             list1 = list1.next;
         } else {
             // Add list2's value to the new list
             newList.next = list2;
 
-            // Move list2 to its next element
+            // Move list2 to its next node
             list2 = list2.next;
         }
 
@@ -33,12 +33,12 @@ var mergeTwoLists = function(list1, list2) {
         newList = newList.next;
     }
 
-    // If list1 has run out of elements
+    // If list1 has run out of nodes
     if (list1 == null) {
         // Append list2 to the new list
         newList.next = list2;
     }
-    // If list2 has run out of elements
+    // If list2 has run out of nodes
     else {
         // Append list1 to the new list
         newList.next = list1;
