@@ -1,0 +1,17 @@
+// Given a linked lists with different fruits as values of each node, check if a target fruit is in the list
+
+let head = {value: 'apple', next: {value: 'apple banana', next: {value: 'cherry', next: {value: 'orange', next: {value: 'pear', next: null}}}}}
+let target = 'kiwi'
+
+function hasFruit(head,target) {
+	let currentNode = head;
+	while(currentNode !== null) {
+	if(currentNode.value == target) {
+return true;
+}
+currentNode = currentNode.next;
+}
+return false;
+}
+
+hasFruit(head,target)
