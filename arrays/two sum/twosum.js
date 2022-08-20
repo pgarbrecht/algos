@@ -17,13 +17,16 @@ var twoSum = function(nums, target) {
         for(j=i+1; j<nums.length; j++) {
             //function to sum the 2 items from each array
             let sumCheck = nums[i] + nums[j];
+            //if numbers are same skip, as we can't use same twice
             if(i === j) {
                 continue;
             }
+            //if two numbers sum equals target add to answer array
             if (sumCheck === target) {
                 answer.push(i,j);
             }
         }
+        //break when you get two numbers that sum to equal target
         if (answer.length ===2) {
         break;
         }
