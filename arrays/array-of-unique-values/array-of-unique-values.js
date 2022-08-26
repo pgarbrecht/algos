@@ -21,7 +21,7 @@ const uniqueVals = (length, maxValue) => {
         answer.push(num)
       }
     }
-    //outside loop, return the answer array variable
+    //outside of the loop, return the answer array variable
     return answer;
   };
   
