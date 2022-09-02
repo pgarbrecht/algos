@@ -25,5 +25,6 @@ const uniqueVals = (length, maxValue) => {
     return answer;
   };
   
+  //show the answer for the unique values
   console.log("this is uniqueVals", uniqueVals(5, 10))
   
