@@ -14,7 +14,7 @@ const uniqueVals = (length, maxValue) => {
     let answer = [];
     //while loop that iterates until we find 5 valid answers
     while (answer.length < 5) {
-    //inside loop, generate random number within range 
+    //inside loop, generate random number within the range 
       let num = Math.floor(Math.random() * maxValue + 1);
       //if random number not in answer array already, add it there
       if(answer.includes(num) != true) {
