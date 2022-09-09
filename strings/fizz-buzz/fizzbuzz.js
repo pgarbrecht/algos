@@ -14,6 +14,7 @@ var fizzBuzz = function(n) {
     let answer = [];
     //iterate from 1 to the number that is passed in
     for (let i = 1; i <= n; i++) {
+        //if i is divisble by 3 but not 5
         if(i%3 == 0 && i%5 !== 0) {
             answer.push("Fizz");
         }
