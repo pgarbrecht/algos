@@ -14,19 +14,19 @@ var fizzBuzz = function(n) { //a number is passed in
     let answer = []; //create an answer array
     //iterate from 1 to the number that is passed in
     for (let i = 1; i <= n; i++) {
-        //if i is divisble by 3 but not 5, push Fizz
+        //if i can be divided by 3 with no remainder but 5 cannot, push Fizz
         if(i%3 == 0 && i%5 !== 0) {
             answer.push("Fizz");
         }
-        //else if i is divisble by 5 and not 3, push Buzz
+        //else if i can be divided by 5 with no remainder but 3 cannot, push Buzz
         else if(i%5 == 0 && i%3 !==0) {
             answer.push("Buzz");
         } 
-        //else if i is divisible by 3 and 5, push FizzBuzz
+        //else if i can be divided by either 3 or 5 with no remainder, push FizzBuzz
         else if(i%3 == 0 && i%5 == 0) {
             answer.push("FizzBuzz");
         }
-        //if i isn't divisible by 3 or 5, push the number
+        //if i can't be divided by 3 or 5 with no remainder, push the number
         else { 
             answer.push(i.toString());
         }
