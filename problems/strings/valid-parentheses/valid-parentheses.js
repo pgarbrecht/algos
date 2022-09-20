@@ -20,9 +20,9 @@ Output: false
 */
 
 var isValid = function(s) {
-    const stack = [];
+    const stack = []; //create empty stack variable
       
-      for (let i = 0; i < s.length; i += 1) {
+      for (let i = 0; i < s.length; i += 1) { //loop over length of input string
         const top = stack[stack.length - 1];
         if (s[i] === '(' || s[i] === '{' || s[i] === '[') {
           stack.push(s[i]);
