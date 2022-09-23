@@ -19,7 +19,7 @@ Input: s = "(]"
 Output: false
 */
 
-var isValid = function(s) {
+var isValid = function(s) { //pass in input string s
     const stack = []; //create empty stack array
       
       for (let i = 0; i < s.length; i += 1) { //loop over length of input string
