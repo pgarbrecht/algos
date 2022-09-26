@@ -14,7 +14,7 @@ Hint: Try incorporating one or more of the following array methods:
 const arr1 = [0,1,2,3,4,5,6,7,8,9,10,11,12] 
 const arr2 = [2,3,7,9]
 
-// WRITE PSEUDOCODE HERE
+// pass in our two input array
 const findMissingNums = (arr1,arr2) => {
   //FOR LOOP - iterate over first array
   for(i=0;i<arr1.length;i++) {
