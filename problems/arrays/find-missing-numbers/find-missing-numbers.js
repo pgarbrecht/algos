@@ -16,7 +16,7 @@ const arr2 = [2,3,7,9]
 
 // pass in our two input array
 const findMissingNums = (arr1,arr2) => {
-  //FOR LOOP - iterate over first array
+  //For loop - iterate over first array
   for(i=0;i<arr1.length;i++) {
     //if the number you are iterating over is NOT present in the second array, push the number into it.
     if(arr2.includes(arr1[i]) != true) {
