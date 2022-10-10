@@ -23,7 +23,7 @@ const findMissingNums = (arr1,arr2) => {
       arr2.push(arr1[i]);
     } 
   }
-  //Once the loop is complete return the second array.
+  //Once the loop is complete the return the second array.
   return arr2.sort((a,b)=>a-b);
 }
 
