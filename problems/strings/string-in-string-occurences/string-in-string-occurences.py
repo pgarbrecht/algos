@@ -25,6 +25,7 @@ def occurrences(string1, string2):
     # print the answer
     print(number)
 
+#test cases provided below - check console for answers
 occurrences('fleep floop', 'e') 
 occurrences('fleep floop', 'p')
 occurrences('fleep floop', 'ee')
