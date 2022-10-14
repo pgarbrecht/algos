@@ -16,9 +16,7 @@
 
 // ------------------------------------------*/
 
-// Write the function here....
-
-//OPTION 1
+//OPTION 1 - brute force method
 //define function that accepts input array
 const duplicate = (array) => {
   //define new array to store answer
@@ -32,21 +30,22 @@ const duplicate = (array) => {
     answer.push(array[i])
   }
   return answer;
-  
-  //OPTION 2 -- much faster
-//   const newArray = array.concat(array);
-//   return newArray;
 }
 
-
+  //OPTION 2 -- much faster method
+  const duplicate2 = (array) => {
+  const newArray = array.concat(array);
+  return newArray;
+}
 
 /*------------------------------------------
 
-Running the console log below should result in the 
-following output:
+Running the console logs below should result in the 
+following output each time:
 
 ['🍕', '🥗', '🍷', '🍰', '🍕', '🥗', '🍷', '🍰']
 
 ------------------------------------------*/
 
 console.log(duplicate(['🍕', '🥗', '🍷', '🍰']));
+console.log(duplicate2(['🍕', '🥗', '🍷', '🍰']));
