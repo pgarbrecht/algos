@@ -33,8 +33,11 @@ const duplicate = (array) => {
 }
 
   //OPTION 2 -- much faster method
+  //pass in the input array
   const duplicate2 = (array) => {
+  //create new array that combines input array twice
   const newArray = array.concat(array);
+  //return new array as answer
   return newArray;
 }
 
