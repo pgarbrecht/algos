@@ -50,5 +50,6 @@ following output each time:
 
 ------------------------------------------*/
 
+//test both options
 console.log(duplicate(['🍕', '🥗', '🍷', '🍰']));
 console.log(duplicate2(['🍕', '🥗', '🍷', '🍰']));
