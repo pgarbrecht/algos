@@ -50,7 +50,7 @@ function adjacentElementsProduct(inputArray) {
     calculations.sort();
     //reverse the order, so biggest to smallest
     calculations.reverse();  
-    //grab the biggest calculation
+    //grab the biggest calculation as the answer
     return calculations[0];
   }
   
