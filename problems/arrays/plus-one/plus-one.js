@@ -12,22 +12,22 @@ Thus, the result should be [1,2,4].
 
 var plusOne = function(digits) {
 
-    //PATH 1: FOR WHEN ARRAY HAS 9S AND NON-9S
-    //loop backwards over the input array
+    //PART 1: CHECK IF ARRAY HAS ALL 9S OR NOT
+    //loop backwards over the input array, checking each number
     for(let i = digits.length -1; i >= 0; i--){
         //if current index's value is 9,
         if(digits[i] === 9){
             //change it to 0 
             digits[i] = 0;
-        } else {
-            //else (not 9), increase current index's value by 1
+        } else { 
+            //else (we find a non-9), increase current index's value by 1
             digits[i] += 1;
             //and return the modified array as final answer
             return digits;
         }
     }
 
-    //PATH 2: FOR WHEN ARRAY HAS ONLY 9S (CONTINUATION OF PATH 1)
+    //PART 2: REACHED IF ARRAY HAD ONLY 9S (CONTINUATION OF PART 1)
     //copy value of array, but insert another index in front
     digits = new Array(digits.length + 1).fill(0);
     //set this newly added index's value to 1
