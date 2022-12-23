@@ -22,7 +22,7 @@ var plusOne = function(digits) {
         } else { 
             //else (we find a non-9), increase current index's value by 1
             digits[i] += 1;
-            //and return the modified array as final answer
+            //and return the modified array as final answer (ending the function)
             return digits;
         }
     }
