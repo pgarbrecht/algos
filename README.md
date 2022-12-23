@@ -1,1 +1,1 @@
-Hello! Here you will find my solutions to various algorthim challenges. The folder structure of this repo is set up by data structure type > challenge name. Then within each challenge name folder, there is a separate file for solving that challenge in different languages.
+Hello! Here you will find my solutions to various algorthim challenges. The folder structure of this repo is set up by problems > data structure type > challenge name. Then within each challenge name folder, there is a separate file for solving that challenge in different languages.
