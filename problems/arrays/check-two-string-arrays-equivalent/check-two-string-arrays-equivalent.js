@@ -29,7 +29,7 @@ var arrayStringsAreEqual = function(word1, word2) {
     //if two words equal, return true
     if(concatWord1 === concatWord2){
         return true;
-    } else{ //else, return false
+    } else{ //else, we return false
         return false
     }
 };
