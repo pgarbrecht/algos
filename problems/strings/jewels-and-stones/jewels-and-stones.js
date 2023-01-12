@@ -19,6 +19,6 @@ var numJewelsInStones = function(jewels, stones) {
             answer += 1;
         }
     }
-    //return answer
+    //return the answer
     return answer;
 };
