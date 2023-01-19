@@ -29,8 +29,8 @@ const romanToInt = (s) => {
             i++;
         }
     }
-    
-     console.log(answer);
+    //return the answer
+    return(answer);
 };
 
 romanToInt(string);
