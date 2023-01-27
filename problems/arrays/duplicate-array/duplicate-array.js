@@ -37,7 +37,7 @@ const duplicate = (array) => {
   const duplicate2 = (array) => {
   //create new array that combines input array twice
   const newArray = array.concat(array);
-  //return new array as answer
+  //return new array as the answer
   return newArray;
 }
 
