@@ -26,7 +26,7 @@ var arrayStringsAreEqual = function(word1, word2) {
         concatWord2 += word2[i];
     }
     //conditional logic
-    //if two words equal, return true
+    //if two words match, return true
     if(concatWord1 === concatWord2){
         return true;
     } else{ //else, we return false
