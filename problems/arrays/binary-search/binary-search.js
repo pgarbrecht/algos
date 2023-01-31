@@ -6,7 +6,7 @@ function binarySearch(array, target) {
       //and return -1 as answer
       return -1
     } else { //otherwise,
-      //make copy of array with spread operator
+      //make copy of array using the spread operator
       let copyArray = [...array]
       //create variable for midpoint of copy array and variable to track result
       let mid = Math.floor(copyArray.length / 2)
