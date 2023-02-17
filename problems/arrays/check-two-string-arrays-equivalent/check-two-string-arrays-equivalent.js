@@ -17,16 +17,16 @@ var arrayStringsAreEqual = function(word1, word2) {
     //create variables for concatenated words 1 and 2
     let concatWord1 = '';
     let concatWord2 = '';
-    //loop through array 1 and concatenate into word 1
+    //loop through array 1 and concatenate it into word 1
     for(let i = 0; i < word1.length; i++){
         concatWord1 += word1[i];
     }
-    //loop through array 2 and concatenate into word 2
+    //loop through array 2 and concatenate it into word 2
     for(let i = 0; i < word2.length; i++){
         concatWord2 += word2[i];
     }
     //conditional logic
-    //if two words match, return true
+    //if two words match, then return true
     if(concatWord1 === concatWord2){
         return true;
     } else{ //else, we return false
