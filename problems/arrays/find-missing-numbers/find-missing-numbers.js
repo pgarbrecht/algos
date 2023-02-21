@@ -18,12 +18,12 @@ const arr2 = [2,3,7,9]
 const findMissingNums = (arr1,arr2) => {
   //For loop - iterate over the first array
   for(i=0;i<arr1.length;i++) {
-    //if the number you are iterating over is NOT present in the second array, push the number into it.
+    //if the number we are iterating over is NOT present in the second array, push the number into it.
     if(arr2.includes(arr1[i]) != true) {
       arr2.push(arr1[i]);
     } 
   }
-  //Once the loop is complete the return the second array.
+  //Once the loop is complete, then return the second array.
   return arr2.sort((a,b)=>a-b);
 }
 
