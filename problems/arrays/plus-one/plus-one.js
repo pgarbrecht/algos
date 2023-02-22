@@ -17,7 +17,7 @@ var plusOne = function(digits) {
     for(let i = digits.length -1; i >= 0; i--){
         //if current index's value is 9,
         if(digits[i] === 9){
-            //change it to 0 
+            //then change it to 0 
             digits[i] = 0;
         } else { 
             //else (we find a non-9), increase current index's value by 1
