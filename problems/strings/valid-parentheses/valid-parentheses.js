@@ -33,7 +33,7 @@ var isValid = function(s) { //pass in input string s
         } else if (s[i] === '}' && top === '{' && stack.length !== 0) {
           stack.pop(); //if a } close tag matching { open tag is found, empty stack
         } else {
-          return false; //if none of the above true, return false
+          return false; //if none of the above true, then return false
         }
       }
       
