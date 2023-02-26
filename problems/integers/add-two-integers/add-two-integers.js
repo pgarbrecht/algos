@@ -13,7 +13,7 @@ Constraints:
 var sum = function(num1, num2) {
     //create answer variable
     let answer;
-    //set answer variable equal to sum of both integers
+    //set the answer variable equal to sum of both integers
     answer = num1 + num2;
     //return answer variable
     return answer;
