@@ -18,7 +18,7 @@ Explanation: Temperature at 36.50 Celsius converted in Kelvin is 309.65 and conv
 var convertTemperature = function(celsius) {
     //calculate kelvin variable
     const kelvin = celsius + 273.15;
-    //calcualte fahrenheit variable
+    //calculate fahrenheit variable
     const fahrenheit = (celsius * 1.80) + 32;
     //return array in expected format
     const ans = [kelvin,fahrenheit];
