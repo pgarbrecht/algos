@@ -19,7 +19,7 @@ Explanation: There are only two items matching the given rule, which are ["phone
 */
 
 var countMatches = function(items, ruleKey, ruleValue) {
-    //create answer varaiable set to 0 at first
+    //create an answer varaiable set to 0 at first
     let answer = 0;
     //check what rule key will be and assign numeric index variable for it
     let index;
