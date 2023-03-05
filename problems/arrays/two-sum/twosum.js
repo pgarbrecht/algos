@@ -10,7 +10,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 */
 
 var twoSum = function(nums, target) {
-    //we create an empty map (aka object)
+    //we create an empty map
     let map = new Map();
     //we loop through the given nums array
     for (i = 0; i < nums.length; i++) {
