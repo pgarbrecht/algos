@@ -25,7 +25,7 @@ const duplicate = (array) => {
   for(i=0; i<array.length; i++) {
     answer.push(array[i])
   }
-  //loop 2 also goes over the array and push each item to new array
+  //loop 2 also goes over the array and pushes each item to new array
   for(i=0; i<array.length; i++) {
     answer.push(array[i])
   }
