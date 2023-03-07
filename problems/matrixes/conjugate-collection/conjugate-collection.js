@@ -55,7 +55,7 @@ let conjugateBeadRepresentation = [];
  }
  console.log('Here is the conjugate bead representation:', conjugateBeadRepresentation)
 
-// Step 3: convert matrix back into the answer array
+// Step 3: convert the matrix back into the answer array
 let conjugateCollection = []
 //loop over conjugateBeadRepresentation[i] and push length of the array to conjugate collection
 for(i=0; i<conjugateBeadRepresentation.length; i++){
