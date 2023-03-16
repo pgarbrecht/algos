@@ -16,7 +16,7 @@ var twoSum = function(nums, target) {
     for (i = 0; i < nums.length; i++) {
         // we create a variable to track current number we are at as we loop
         let current = nums[i];
-        //we create variable to track the difference of target - current number we are at
+        //we create a variable to track the difference of target - current number we are at
         let difference = target - current;
         //if that difference exists in map we found the two indexes that give us the answer
         if( difference in map) {
